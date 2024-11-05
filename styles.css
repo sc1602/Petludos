@@ -2,11 +2,14 @@
 body{
     background-color: hsl(35, 100%, 51%);
     font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    margin:0;
 }
 main{
     background-color: hsl(38, 94%, 38%);
-    margin: 0 auto;
-    margin-top: 7%;
     width: 300px;
     height: 450px;
     border-radius: 10px;
